@@ -1,10 +1,10 @@
-function openNewPage() {
+function openNewPage(link) {
     // Substitua 'LINK_DA_NOVA_PAGINA' pelo link da nova página com mais fotos e vídeos
-    window.location.href = 'LINK_DA_NOVA_PAGINA';
+    window.location.href = link;
 }
 
 function showVideoPreview(element) {
-    element.querySelector('.video-preview').style.filter = 'brightness(70%)';
+    element.querySelector('.video-preview').style.filter = 'brightness(120%)';
 }
 
 function hideVideoPreview(element) {
